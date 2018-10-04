@@ -1,6 +1,7 @@
 ```js
 {
   "window.zoomLevel": 1,
+  "window.title": "${rootName} 👨🏻‍💻 ${separator}${activeEditorMedium}${dirty}",
   "sublimeTextKeymap.promptV3Features": true,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
