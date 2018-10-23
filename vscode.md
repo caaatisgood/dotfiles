@@ -52,16 +52,16 @@
     "body": "console.warn('>>> $2', $1)"
   },
   "console.error": {
-    "prefix": "ce",
+    "prefix": "cw",
     "body": "console.error('>>> $2', $1)"
   },
   "describe": {
     "prefix": "des",
     "body": "describe('$1', () => {\n  $2\n})"
   },
-  "it": {
-    "prefix": "it",
-    "body": "it('$1', () => {\n  $2\n})"
+  "its": {
+    "prefix": "its",
+    "body": "it('should $1', () => {\n  $2\n})"
   },
   "expect": {
     "prefix": "ep",
