@@ -2,23 +2,32 @@
 
 ```js
 {
-  "window.zoomLevel": 1,
-  "window.title": "${rootName} 👨🏻‍💻 ${separator}${activeEditorMedium}${dirty}",
-  "sublimeTextKeymap.promptV3Features": true,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.snippetSuggestions": "top",
-  "editor.formatOnPaste": false,
-  "editor.tabSize": 2,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "underline",
   "editor.fontFamily": "Fira Code",
-  "editor.fontWeight": "300",
   "editor.fontLigatures": true,
-  "editor.fontSize": 13,
-  "[javascript]": {
-    "editor.formatOnSave": false
-  },
+  "editor.fontSize": 14,
+  "editor.fontWeight": "300",
+  "editor.formatOnPaste": true,
+  "editor.hover.delay": 150,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.quickSuggestionsDelay": 0,
+  "editor.renderLineHighlight": "all",
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.title": "${rootName} 👨🏻‍💻 ${separator}${activeEditorMedium}${dirty}",
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "gitlens.codeLens.enabled": false,
-  "gitlens.keymap": "chorded",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.sideBar.location": "right",
+  "flow.useNPMPackagedFlow": true,
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
     "suppressCommitNotFoundWarning": false,
@@ -29,14 +38,11 @@
     "suppressResultsExplorerNotice": false,
     "suppressShowKeyBindingsNotice": true
   },
-  "cSpell.userWords": [
-    "evenodd"
-  ],
-  "gitlens.historyExplorer.enabled": true,
-  "workbench.colorTheme": "Atom One Dark",
-  "diffEditor.ignoreTrimWhitespace": false,
-  "workbench.editor.showTabs": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.keymap": "chorded",
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "jest.runAllTestsFirst": false
 }
 ```
 
