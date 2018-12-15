@@ -42,7 +42,52 @@
   "gitlens.keymap": "chorded",
   "gitlens.views.fileHistory.enabled": true,
   "gitlens.views.lineHistory.enabled": true,
-  "jest.runAllTestsFirst": false
+  "jest.runAllTestsFirst": false,
+  "cSpell.ignoreWords": [
+    "angularjs",
+    "backend",
+    "blockchain",
+    "classname",
+    "filepicker",
+    "filestack",
+    "filestackcontent",
+    "fontawesome",
+    "fortawesome",
+    "fullstack",
+    "howitworks",
+    "lazyload",
+    "longterm",
+    "mailto",
+    "mentorship",
+    "mentee",
+    "nbsp",
+    "noopener",
+    "noreferrer",
+    "onboarding",
+    "prefetch",
+    "proxify",
+    "reactjs",
+    "reactnative",
+    "repo",
+    "signin",
+    "signout",
+    "signup",
+    "typeform",
+    "unfollow",
+    "unmount",
+    "unstar",
+    "webapp",
+    "youtube",
+    "visibilitychange",
+    "xsmall"
+  ],
+  "cSpell.ignoreRegExpList": [
+    "/btns?/",
+    "/(C|c)odementor/",
+    "/(C|c)tas?/",
+    "/(R|r)e(c|C)aptcha/",
+    "/mentees?/"
+  ]
 }
 ```
 
