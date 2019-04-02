@@ -52,6 +52,7 @@
     "blockchain",
     "classname",
     "dropdown",
+    "expertises",
     "filepicker",
     "filestack",
     "filestackcontent",
@@ -137,6 +138,10 @@
   "render-doc": {
     "prefix": "rd",
     "body": "renderDoc()"
+  },
+  "it-should-render-node": {
+    "prefix": "isrn",
+    "body": "it('should render $1', () => {\n  const doc = renderDoc()\n  const node = doc.find('$1')\n  expect(node).toHaveLength(1)\n  expect(node.props()).toMatchObject({$2})\n})"
   }
 }
 ```
