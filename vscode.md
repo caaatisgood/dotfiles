@@ -22,12 +22,11 @@
   "terminal.integrated.fontSize": 14,
   "window.title": "${rootName} 👨🏻‍💻 ${separator}${activeEditorMedium}${dirty}",
   "window.zoomLevel": 0,
-  "workbench.activityBar.visible": false
-  "workbench.colorTheme": "Atom One Dark",
+  "workbench.activityBar.visible": false,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.highlightModifiedTabs": true,
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
   "flow.useNPMPackagedFlow": true,
   "gitlens.advanced.messages": {
@@ -76,10 +75,12 @@
     "reactjs",
     "reactnative",
     "repo",
+    "repos",
     "rollbar",
     "signin",
     "signout",
     "signup",
+    "toggleable",
     "typeform",
     "unfollow",
     "unmount",
@@ -135,6 +136,10 @@
     "prefix": "drd",
     "body": "const doc = renderDoc()"
   },
+  "react-pure-component": {
+    "prefix": "rpc",
+    "body": "import React from 'react'\nimport PropTypes from 'prop-types'\nimport styled from 'styled-components'\n\nconst $1 = () => (\n  <StyledContainer></StyledContainer>\n)\n\n$1.propTypes = {\n\n}\n\nexport default React.memo($1)\n\nconst StyledContainer = styled.div`\n`"
+  },
   "render-doc": {
     "prefix": "rd",
     "body": "renderDoc()"
@@ -147,8 +152,13 @@
 ```
 # Extensions
 - Atom One Dark
+- Code Spell Checker
+- colorize
 - ESLint
 - GitLens
+- GraphQL for VSCode
 - Jest
+- Material Icon Theme
 - Sublime Text Keymap
+- stylelint
 - WakaTime
