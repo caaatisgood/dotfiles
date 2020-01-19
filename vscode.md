@@ -147,6 +147,10 @@
   "it-should-render-node": {
     "prefix": "isrn",
     "body": "it('should render $1', () => {\n  const doc = renderDoc()\n  const node = doc.find('$1')\n  expect(node).toHaveLength(1)\n  expect(node.props()).toMatchObject({$2})\n})"
+  },
+  "import-ui-kit-dialog": {
+    "prefix": "impd",
+    "body": "import Dialog from '@codementor/ui-kit/Dialog'\nimport DialogHeader from '@codementor/ui-kit/Dialog/DialogHeader'\nimport DialogBody from '@codementor/ui-kit/Dialog/DialogBody'\nimport DialogFooter from '@codementor/ui-kit/Dialog/DialogFooter'"
   }
 }
 ```
