@@ -2,18 +2,17 @@
 
 ```js
 {
-  "editor.acceptSuggestionOnEnter": "smart",
   "editor.cursorBlinking": "expand",
   "editor.cursorStyle": "underline",
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
-  "editor.fontWeight": "300",
   "editor.hover.delay": 150,
   "editor.minimap.renderCharacters": false,
   "editor.minimap.showSlider": "always",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.quickSuggestionsDelay": 0,
+  "editor.acceptSuggestionOnEnter": "smart",
   "editor.renderLineHighlight": "all",
   "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
@@ -23,7 +22,6 @@
   "window.title": "${rootName} 👨🏻‍💻 ${separator}${activeEditorMedium}${dirty}",
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": false,
-  "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.iconTheme": "material-icon-theme",
@@ -43,7 +41,6 @@
   "gitlens.keymap": "chorded",
   "gitlens.views.fileHistory.enabled": true,
   "gitlens.views.lineHistory.enabled": true,
-  "jest.runAllTestsFirst": false,
   "cSpell.ignoreWords": [
     "aasm",
     "angularjs",
@@ -97,7 +94,44 @@
     "/(C|c)tas?/",
     "/(R|r)e(c|C)aptcha/",
     "/mentees?/"
-  ]
+  ],
+  "workbench.colorTheme": "Atom One Dark",
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "git-commit",
+    "go",
+    "handlebars",
+    "haskell",
+    "html",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "pug",
+    "python",
+    "restructuredtext",
+    "rust",
+    "scala",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "yaml",
+    "yml"
+  ],
+  "workbench.editor.showTabs": true,
+  "workbench.editor.enablePreview": false
 }
 ```
 
