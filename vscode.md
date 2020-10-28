@@ -136,19 +136,19 @@
 ```
 
 # Snippets
-```js
+```json
 {
   "console.log": {
     "prefix": "cl",
-    "body": "console.log('>>> $2', $1)"
+    "body": "console.log('> $2', $1)"
   },
   "console.warn": {
     "prefix": "cw",
-    "body": "console.warn('>>> $2', $1)"
+    "body": "console.warn('> $2', $1)"
   },
   "console.error": {
     "prefix": "cw",
-    "body": "console.error('>>> $2', $1)"
+    "body": "console.error('> $2', $1)"
   },
   "describe": {
     "prefix": "des",
@@ -166,6 +166,14 @@
     "prefix": "epm",
     "body": "expect($1).toMatchObject({\n  $2\n})"
   },
+  "expect-to-equal": {
+    "prefix": "epe",
+    "body": "expect($1).toEqual($2)"
+  },
+  "expect-to-have-length": {
+    "prefix": "epl",
+    "body": "expect($1).toHaveLength($2)"
+  },
   "doc-render-doc": {
     "prefix": "drd",
     "body": "const doc = renderDoc()"
@@ -180,11 +188,15 @@
   },
   "it-should-render-node": {
     "prefix": "isrn",
-    "body": "it('should render $1', () => {\n  const doc = renderDoc()\n  const node = doc.find('$1')\n  expect(node).toHaveLength(1)\n  expect(node.props()).toMatchObject({$2})\n})"
+    "body": "it('should render $1', () => {\n  const doc = renderDoc()\n  const node = doc.find('$1')\n  expect(node.props()).toMatchObject({$2})\n})"
   },
   "import-ui-kit-dialog": {
     "prefix": "impd",
     "body": "import Dialog from '@codementor/ui-kit/Dialog'\nimport DialogHeader from '@codementor/ui-kit/Dialog/DialogHeader'\nimport DialogBody from '@codementor/ui-kit/Dialog/DialogBody'\nimport DialogFooter from '@codementor/ui-kit/Dialog/DialogFooter'"
+  },
+  "eslint-disable-next-line react/prop-types": {
+    "prefix": "ednlpt",
+    "body": "// eslint-disable-next-line react/prop-types"
   }
 }
 ```
