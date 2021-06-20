@@ -20,27 +20,21 @@
   "telemetry.enableTelemetry": false,
   "terminal.integrated.fontSize": 14,
   "window.title": "${rootName} 👨🏻‍💻 ${separator}${activeEditorMedium}${dirty}",
-  "window.zoomLevel": 0,
   "workbench.activityBar.visible": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
-  "flow.useNPMPackagedFlow": true,
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
     "suppressCommitNotFoundWarning": false,
     "suppressFileNotUnderSourceControlWarning": false,
     "suppressGitVersionWarning": false,
     "suppressLineUncommittedWarning": false,
-    "suppressNoRepositoryWarning": false,
-    "suppressResultsExplorerNotice": false,
-    "suppressShowKeyBindingsNotice": true
+    "suppressNoRepositoryWarning": false
   },
   "gitlens.codeLens.enabled": false,
   "gitlens.keymap": "chorded",
-  "gitlens.views.fileHistory.enabled": true,
-  "gitlens.views.lineHistory.enabled": true,
   "cSpell.ignoreWords": [
     "aasm",
     "angularjs",
@@ -130,8 +124,11 @@
     "yaml",
     "yml"
   ],
-  "workbench.editor.showTabs": true,
-  "workbench.editor.enablePreview": false
+  "workbench.editor.enablePreview": false,
+  "files.associations": {
+    ".vimrc": "bat"
+  },
+  "liveServer.settings.donotShowInfoMsg": true
 }
 ```
 
@@ -201,12 +198,14 @@
 }
 ```
 # Extensions
-- Atom One Dark
+- Atom One Dark Theme
+- Atom One Light Theme
 - Code Spell Checker
 - colorize
 - ESLint
+- Git File History
 - GitLens
-- GraphQL for VSCode
+- GraphQL
 - Jest
 - Material Icon Theme
 - Sublime Text Keymap
