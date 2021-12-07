@@ -17,9 +17,8 @@
   "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "telemetry.enableTelemetry": false,
   "terminal.integrated.fontSize": 14,
-  "window.title": "${rootName} 👨🏻‍💻 ${separator}${activeEditorMedium}${dirty}",
+  "window.title": "${rootName} 🎞 ${separator}${activeEditorMedium} ${dirty}",
   "workbench.activityBar.visible": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.highlightModifiedTabs": true,
@@ -128,7 +127,7 @@
   "files.associations": {
     ".vimrc": "bat"
   },
-  "liveServer.settings.donotShowInfoMsg": true
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
 ```
 
